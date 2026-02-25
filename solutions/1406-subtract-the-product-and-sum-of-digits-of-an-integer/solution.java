@@ -11,5 +11,4 @@ class Solution {
         int result=c-s;
         return result;
     }
-    
 }
