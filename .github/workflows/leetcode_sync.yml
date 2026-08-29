@@ -2,7 +2,8 @@ name: Sync Leetcode
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * 6" # Runs weekly. Change to "0 0 * * *" for daily syncs.
+       - cron: "0 0 * * *"
+ # Runs weekly. Change to "0 0 * * *" for daily syncs.
 jobs:
   build:
     runs-on: ubuntu-latest
